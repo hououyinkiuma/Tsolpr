@@ -13,7 +13,9 @@ namespace Tsolpr {
 
 		static Pretreatment* instance();
 
-		int ColorLocate()
+		int PlateLocate(const Mat input,OutputArray& output);
+
+		int ColorLocate();
 
 
 	private:
